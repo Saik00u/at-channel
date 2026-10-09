@@ -1,0 +1,12 @@
+[project]
+name = "at-channel"
+version = "0.1.0"
+description = "A Reddit-style blog platform built with FastAPI. Named after the @channel board from Steins;Gate."
+readme = "README.md"
+authors = [
+    { name = "Muhd Adam", email = "185468406+Saik00u@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.143.0",
+]
