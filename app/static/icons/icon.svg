@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="800" height="800">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+    <stop offset="0" stop-color="#1b211e"/><stop offset="1" stop-color="#060807"/>
+  </radialGradient>
+  <linearGradient id="glass" x1="0" x2="1">
+    <stop offset="0" stop-color="#9fb4c0" stop-opacity=".22"/>
+    <stop offset=".18" stop-color="#9fb4c0" stop-opacity=".05"/>
+    <stop offset=".8" stop-color="#9fb4c0" stop-opacity=".03"/>
+    <stop offset="1" stop-color="#9fb4c0" stop-opacity=".16"/>
+  </linearGradient>
+  <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a3f42"/><stop offset=".5" stop-color="#1e2224"/><stop offset="1" stop-color="#0e1011"/>
+  </linearGradient>
+  <radialGradient id="warm" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#ff7a18" stop-opacity=".35"/><stop offset="1" stop-color="#ff7a18" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="mesh" width="17.32" height="30" patternUnits="userSpaceOnUse">
+    <path d="M0 5L8.66 0L17.32 5V15L8.66 20L0 15ZM8.66 20V30" fill="none" stroke="#8a9296" stroke-width="1.1"/>
+  </pattern>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="b1"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="b2"/>
+    <feMerge><feMergeNode in="b1"/><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<rect width="512" height="512" fill="url(#mesh)" opacity=".18"/>
+<ellipse cx="256" cy="256" rx="240" ry="240" fill="url(#warm)"/>
+<g filter="url(#glow)"><path d="M831 539Q831 416 883.5 345.0Q936 274 1026 274Q1115 274 1168.0 345.5Q1221 417 1221 539Q1221 660 1167.5 730.5Q1114 801 1024 801Q936 801 883.5 730.5Q831 660 831 539ZM1241 238Q1211 167 1144.5 127.5Q1078 88 989 88Q817 88 709.5 212.5Q602 337 602 537Q602 737 710.0 862.0Q818 987 989 987Q1078 987 1144.5 947.0Q1211 907 1241 836V967H1450V274Q1574 293 1645.0 393.5Q1716 494 1716 651Q1716 751 1687.0 838.5Q1658 926 1599 999Q1504 1121 1361.5 1187.0Q1219 1253 1053 1253Q937 1253 831.0 1222.5Q725 1192 635 1133Q487 1035 404.5 879.5Q322 724 322 543Q322 394 375.5 263.5Q429 133 530 33Q630 -65 759.5 -116.5Q889 -168 1036 -168Q1162 -168 1288.0 -121.0Q1414 -74 1503 6L1610 -156Q1485 -253 1337.5 -304.5Q1190 -356 1038 -356Q853 -356 689.0 -290.5Q525 -225 397 -100Q269 25 202.0 189.5Q135 354 135 543Q135 725 203.0 890.0Q271 1055 397 1180Q523 1304 690.5 1372.0Q858 1440 1038 1440Q1262 1440 1445.0 1354.5Q1628 1269 1751 1108Q1826 1010 1864.5 895.5Q1903 781 1903 655Q1903 384 1740.0 234.0Q1577 84 1280 84H1241Z" transform="translate(19.73 387.78) scale(0.23164 -0.23164)" fill="#ff7a1a"/></g>
+<path d="M831 539Q831 416 883.5 345.0Q936 274 1026 274Q1115 274 1168.0 345.5Q1221 417 1221 539Q1221 660 1167.5 730.5Q1114 801 1024 801Q936 801 883.5 730.5Q831 660 831 539ZM1241 238Q1211 167 1144.5 127.5Q1078 88 989 88Q817 88 709.5 212.5Q602 337 602 537Q602 737 710.0 862.0Q818 987 989 987Q1078 987 1144.5 947.0Q1211 907 1241 836V967H1450V274Q1574 293 1645.0 393.5Q1716 494 1716 651Q1716 751 1687.0 838.5Q1658 926 1599 999Q1504 1121 1361.5 1187.0Q1219 1253 1053 1253Q937 1253 831.0 1222.5Q725 1192 635 1133Q487 1035 404.5 879.5Q322 724 322 543Q322 394 375.5 263.5Q429 133 530 33Q630 -65 759.5 -116.5Q889 -168 1036 -168Q1162 -168 1288.0 -121.0Q1414 -74 1503 6L1610 -156Q1485 -253 1337.5 -304.5Q1190 -356 1038 -356Q853 -356 689.0 -290.5Q525 -225 397 -100Q269 25 202.0 189.5Q135 354 135 543Q135 725 203.0 890.0Q271 1055 397 1180Q523 1304 690.5 1372.0Q858 1440 1038 1440Q1262 1440 1445.0 1354.5Q1628 1269 1751 1108Q1826 1010 1864.5 895.5Q1903 781 1903 655Q1903 384 1740.0 234.0Q1577 84 1280 84H1241Z" transform="translate(19.73 387.78) scale(0.23164 -0.23164)" fill="none" stroke="#ffd9a0" stroke-width="26" opacity=".9"/>
+</svg>
